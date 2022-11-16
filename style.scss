@@ -99,3 +99,32 @@
         text-align: center;
         margin-top: 50px;
 }
+
+.formulario {
+    margin-left: 30px;
+}
+
+.formulario__imbox {
+    width: 96%;
+    
+    &__imput {
+        width: 100%;
+        padding: 0.5%;
+        border: 1px solid purple;
+        border-radius: 2px;
+        margin-bottom: 20px;
+    }
+
+    &__boton {
+        padding: 10px 30px;
+        background-color: orangered;
+        border: none;
+        border-radius: 3px;
+        margin-bottom: 80px;
+        color: white;
+    }
+}
+
+#asunto {
+    padding-bottom: 120px;
+}
