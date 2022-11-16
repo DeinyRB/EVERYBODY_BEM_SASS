@@ -128,3 +128,13 @@
 #asunto {
     padding-bottom: 120px;
 }
+
+.footer {
+    background-color: deepskyblue;
+    padding: 0.5%;
+
+    &__titulo {
+        text-align: center;
+        color:deeppink;
+    }
+}
